@@ -164,6 +164,6 @@ SECRET = 'c4a09912bDUMMY-SECRET9844aaa6'
 Start the server
 
 ```bash
-  npm run run dev
+  npm run dev
 ```
 
