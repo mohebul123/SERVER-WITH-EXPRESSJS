@@ -34,54 +34,7 @@ The backend is structured using a **clean modular architecture** with separated 
 
 ---
 
-## 📁 Project Structure
 
-src/
-├── config/
-
-
-├── database/
-
-
-├── modules/
-
-
-│ ├── auth/
-
-
-│ │ ├── auth.controller.ts
-
-
-│ │ ├── auth.service.ts
-
-
-│ │ └── auth.route.ts
-
-
-│ ├── users/
-
-
-│ ├── vehicles/
-
-
-│ └── bookings/
-
-
-├── middlewares/
-
-
-├── utils/
-
-
-├── app.ts
-
-
-└── server.ts
-
-
-✔ Feature-based modules  
-✔ Clean layering: **Routes → Controllers → Services → Database**  
-✔ Reusable authentication & role-based middlewares  
 
 ---
 
@@ -174,5 +127,43 @@ src/
 | PUT | `/api/v1/bookings/:bookingId` | Role-based | Cancel or return |
 
 ---
+## Setup And Usage Instructions
 
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+```bash
+  CONNECTION_STRING = 'postgresql://neondb_owner:npg_aNlwHiDUMMY-CONNECTUION-STRINGoler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+
+PORT = DUMMY-PORT
+
+SECRET = 'c4a09912bDUMMY-SECRET9844aaa6'
+
+
+```
+
+Start the server
+
+```bash
+  npm run run dev
+```
 
