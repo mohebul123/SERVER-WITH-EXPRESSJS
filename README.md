@@ -34,10 +34,6 @@ The backend is structured using a **clean modular architecture** with separated 
 
 ---
 
-
-
----
-
 ## 🗃️ Database Schema
 
 ### **Users Table**
