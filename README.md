@@ -14,10 +14,10 @@ A complete backend solution for managing a **vehicle rental system**, including 
 
 This project provides a modular and secure backend API for a vehicle rental system with the following core features:
 
-- **Vehicles** – Manage vehicle inventory with availability tracking  
-- **Customers** – Create and manage customer accounts  
-- **Bookings** – Rent vehicles, calculate costs, handle returns  
-- **Authentication** – JWT-based authentication with role-based access control (Admin/Customer)
+- **Vehicles Management** – Manage vehicle inventory with availability tracking  
+- **Customers Management** – Create and manage customer accounts  
+- **Bookings Managements** – Rent vehicles, calculate costs, handle returns  
+- **Authentication & Authorization** – JWT-based authentication with role-based access control (Admin/Customer)
 
 The backend is structured using a **clean modular architecture** with separated layers for routes, controllers, and services.
 
@@ -25,12 +25,12 @@ The backend is structured using a **clean modular architecture** with separated 
 
 ## 🛠️ Technology Stack
 
-- Node.js + TypeScript  
-- Express.js  
-- PostgreSQL  
-- bcrypt  
-- jsonwebtoken (JWT)  
-- pg / Prisma / Sequelize (use whichever DB ORM you choose)
+- **Node.js + TypeScript**  - Language 
+- **Express.js** - Framework
+- **PostgreSQL** - Database
+- **bcrypt** - Hashed Password
+- **jsonwebtoken** - JWT(Authentication & Authorization)  
+- **pg** - DB ORM
 
 ---
 
