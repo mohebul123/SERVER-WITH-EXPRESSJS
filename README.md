@@ -38,18 +38,44 @@ The backend is structured using a **clean modular architecture** with separated 
 
 src/
 ├── config/
+
+
 ├── database/
+
+
 ├── modules/
+
+
 │ ├── auth/
+
+
 │ │ ├── auth.controller.ts
+
+
 │ │ ├── auth.service.ts
+
+
 │ │ └── auth.route.ts
+
+
 │ ├── users/
+
+
 │ ├── vehicles/
+
+
 │ └── bookings/
+
+
 ├── middlewares/
+
+
 ├── utils/
+
+
 ├── app.ts
+
+
 └── server.ts
 
 
@@ -149,14 +175,4 @@ src/
 
 ---
 
-## 🚀 Installation & Setup
 
-### **1. Clone Repository**
-```bash
-git clone https://github.com/your-username/vehicle-rental-system.git
-cd vehicle-rental-system
-npm install
-PORT=5000
-DATABASE_URL=postgres://user:password@localhost:5432/vehicle_rental
-JWT_SECRET=your_secret_key
-npx prisma migrate dev
