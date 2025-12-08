@@ -167,3 +167,18 @@ Start the server
   npm run dev
 ```
 
+API base URL: 
+
+```bash
+  https://localhost:5000/api/v1
+```
+## Github Repository
+
+link -reponame
+
+## Live Deployment
+
+link 
+
+
+
